@@ -1,1 +1,3 @@
-let a = 0;
+let myLibrary = [];
+
+  console.log(myLibrary)
