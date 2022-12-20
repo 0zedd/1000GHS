@@ -1,3 +1,1 @@
-let myLibrary = [];
-
-  console.log(myLibrary)
+document.getElementById('man');
