@@ -1,13 +1,14 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Shopping WebPage App
 
 > Description the project.
 - This Project is about the bluiding and inplementation of a webstore for users to impove Clients shopping experience and to make shopping on the web easy, fast, secure and realiable.
 
-## Built With
+## Technologies Used
+- Lighthouse
+- ESLint
 - Webhint
-- Style-lint
+- Stylelint
 
 # Frontend Technologies used
 - HTML
