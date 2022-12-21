@@ -18,7 +18,8 @@
 # Backend Technologies used
 - JAVASCRIPT
 - PYTHON
-- SQL
+- MySQL
+- FLASK
 
 
 ## Live Demo (if available)
@@ -39,7 +40,10 @@ To get a local copy up and running follow these simple example steps.
 ### Deployment
 - [link here]
 
-
+## Limitations
+- This is the first iteration of a larger project, and as such, there presently does not include any Database support yet. 
+- Database support will be integrated into the codebase which would tie the frontend and the backend together allowing for 
+  signups, registrations, and client usage. 
 
 ## Authors
 
