@@ -1,3 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
-  display: block;
+  height: 100vh;
+  background-color: #e3f0f0;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: grid;
+  font-size: 1.4rem;
+  padding: 50px 50px 10px 50px;
+  background-color: #ffff;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  box-shadow: 0 5px 0 0 rgba(213, 203, 203, 0.877);
+}
+
+.nav-right {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.main-wrapper {
+  padding: 0 50px 0 50px;
+  background-color: #e3f0f0;
+}
+
+.register,
+.loginClass {
+  display: flex;
+  margin: 3.4% 20% 0 20%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(69, 49, 49);
+  align-items: center;
+  background-color: #e3f0f0;
+  width: 100%;
+}
+
+.div-form {
+  display: flex;
+  text-align: center;
+}
+
+form {
+  color: rgb(102, 95, 95);
+  font-size: 17px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+form > button {
+  font-weight: 700;
+  grid-column: 2/2;
+  width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffff;
+  background-color: rgb(36, 36, 240);
+  cursor: pointer;
+  border: none;
+}
+
+#loginopen {
+  display: none;
+}
+
+#login-nav,
+#nav-register {
+  cursor: pointer;
+}
+
+.fa {
+  float: right;
+  cursor: pointer;
 }

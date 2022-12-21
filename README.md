@@ -22,9 +22,9 @@
 - FLASK
 
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://0zedd.github.io/1000GHS/)
 
 
 ## Getting Started
@@ -36,9 +36,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 - Acquire the webstore URL and search in browser
+- Click on live Demo or Deployment Link
 
 ### Deployment
-- [link here]
+- [https://0zedd.github.io/1000GHS/]
 
 ## Limitations
 - This is the first iteration of a larger project, and as such, there presently does not include any Database support yet. 
